@@ -109,7 +109,7 @@ The final report and presentation will summarize:
 | ---- | ---- | ---------------- |
 | Mahmoud Abdel Moaty | Dashboard & DAX Lead | Build the Power BI data model, write the DAX measures, design the dashboard pages, and coordinate the team. |
 |Khalid Khalifa | Data Cleaning & Preprocessing | Clean and transform the dataset in Power Query (missing values, duplicates, data types), and maintain the Data Dictionary. |
-| Abdelrahman | Satisfaction & Demographics Analysis | Define and answer questions on employee age, satisfaction level, and the effect of salary and experience on retention. |
+| Abdelrahman Ahmed Saber | Satisfaction & Demographics Analysis | Define and answer questions on employee age, satisfaction level, and the effect of salary and experience on retention. |
 | Mohamed Rageh | Attrition Analysis & Final Report | Analyze attrition by department and job role, then write the final report and prepare the PowerPoint presentation. |
 
 ---
