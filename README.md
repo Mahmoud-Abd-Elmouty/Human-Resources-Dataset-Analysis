@@ -73,11 +73,10 @@ C --> D[❓ Defining Analysis Questions]
 D --> E[📐 Data Modeling & DAX Measures]
 E --> F[📊 Dashboard Development]
 F --> G[📖 Final Report & Presentation]
-style A fill:#c8e6c9
-style B fill:#c8e6c9
-style C fill:#c8e6c9
-style D fill:#c8e6c9
-```
+style A fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
+style B fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
+style C fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
+style D fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
 
 ### Project Timeline
 
