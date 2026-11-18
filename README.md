@@ -85,4 +85,95 @@ style D fill:#c8e6c9,stroke:#2e7d32,color:#1b5e20
 | ----- | -------- | ------ |
 | 🧹 Data Cleaning & Preprocessing | Week 1 | ✅ Done |
 | ❓ Analysis Questions | Week 2 | ✅ Done |
-| 📊 Dashboard Development | Week 3 |
+| 📊 Dashboard Development | Week 3 | ⬜ Not started |
+| 📖 Final Report & Presentation | Week 4 | ⬜ Not started |
+
+---
+
+# 👥 Team Members
+
+| Name | Role |
+| ---- | ---- |
+| Mahmoud Abdel Moaty | Dashboard & DAX Lead |
+| Khalid Khalifa | Data Cleaning & Preprocessing |
+| Mohamed Rageh | Attrition Analysis & Final Report |
+
+---
+
+# 🧩 Roles & Responsibilities
+
+| Name | Responsibilities |
+| ---- | ---------------- |
+| Mahmoud Abdel Moaty | Build the Power BI data model, write the DAX measures, design the dashboard pages, coordinate the team, and analyze employee age and satisfaction level. |
+| Khalid Khalifa | Clean and transform the dataset in Power Query (missing values, duplicates, data types), and maintain the Data Dictionary. |
+| Mohamed Rageh | Analyze attrition by department and job role, study the effect of salary and years of experience on retention, then write the final report and prepare the PowerPoint presentation. |
+
+---
+
+# 🧹 Data Cleaning & Preprocessing
+
+> ✅ Completed in Week 1.
+
+### Dataset Overview
+- **Employee.csv:** 1,470 employees, 23 columns, no duplicate IDs and no missing values
+- **PerformanceRating.csv:** 6,709 review records covering 1,280 employees, no missing values
+- **Lookup tables:** EducationLevel, RatingLevel, and SatisfiedLevel (used to map the numeric codes)
+
+### Challenges Found
+- Some text values contain trailing spaces (e.g. "Marketing ", "Satisfied ", "High School "), which affect grouping and filtering
+- Some employees have multiple performance reviews, so satisfaction must be handled at the right level before averaging
+
+### Cleaning Steps
+> ⏳ To be listed: the final cleaning steps applied (trimming text, data types, date formats, and relationships in the data model).
+
+---
+
+# 📄 Dashboard Pages
+
+| Page | Description |
+| ---- | ----------- |
+| [To be added] | [To be added] |
+
+---
+
+# 📈 KPIs
+
+| KPI | Definition | Current Value |
+| --- | ---------- | ------------- |
+| Total Headcount | Number of employees | 1,470 |
+| Attrition Rate | Employees who left ÷ total employees | 16.12% |
+| Average Age | Mean employee age | 29.0 years |
+| Average Salary | Mean employee salary | 112,956 |
+| Average Years at Company | Mean tenure | 4.6 years |
+| Average Job Satisfaction | Mean JobSatisfaction score (1–4) | 3.43 |
+| Average Environment Satisfaction | Mean EnvironmentSatisfaction score (1–4) | 3.87 |
+| Average Work-Life Balance | Mean WorkLifeBalance score (1–4) | 3.41 |
+
+---
+
+# 📊 Key Insights
+
+> ⏳ Key insights will be added after the analysis is completed.
+
+---
+
+# 📖 Presentation
+
+The final report and presentation will summarize:
+
+- Problem explanation and analysis questions
+- Key insights
+- Dashboard walkthrough
+- Recommendations
+
+---
+
+# 👨‍🏫 Instructor
+
+### Mohamed Assem
+
+---
+
+# ⭐ Project Status
+
+**In progress**: Weeks 1 and 2 are complete (data cleaning and analysis questions). Dashboard development (Week 3) is next.
