@@ -37,7 +37,7 @@ The project also includes data cleaning and preprocessing, DAX measures, and an 
 - Which departments and job roles have the highest attrition?
 - Do salary or years of experience affect satisfaction and retention?
 
-> ⏳ The final list of questions will be defined after reviewing the dataset.
+> ✅ The analysis questions were defined after reviewing the dataset.
 
 ---
 
@@ -73,14 +73,18 @@ C --> D[❓ Defining Analysis Questions]
 D --> E[📐 Data Modeling & DAX Measures]
 E --> F[📊 Dashboard Development]
 F --> G[📖 Final Report & Presentation]
+style A fill:#c8e6c9
+style B fill:#c8e6c9
+style C fill:#c8e6c9
+style D fill:#c8e6c9
 ```
 
 ### Project Timeline
 
 | Phase | Duration | Status |
 | ----- | -------- | ------ |
-| 🧹 Data Cleaning & Preprocessing | Week 1 | ⬜ Not started |
-| ❓ Analysis Questions | Week 2 | ⬜ Not started |
+| 🧹 Data Cleaning & Preprocessing | Week 1 | ✅ Done |
+| ❓ Analysis Questions | Week 2 | ✅ Done |
 | 📊 Dashboard Development | Week 3 | ⬜ Not started |
 | 📖 Final Report & Presentation | Week 4 | ⬜ Not started |
 
@@ -108,17 +112,19 @@ F --> G[📖 Final Report & Presentation]
 
 # 🧹 Data Cleaning & Preprocessing
 
+> ✅ Completed in Week 1.
+
 ### Dataset Overview
 - **Employee.csv:** 1,470 employees, 23 columns, no duplicate IDs and no missing values
 - **PerformanceRating.csv:** 6,709 review records covering 1,280 employees, no missing values
 - **Lookup tables:** EducationLevel, RatingLevel, and SatisfiedLevel (used to map the numeric codes)
 
 ### Challenges Found
-- Some text values contain trailing spaces (e.g. "Marketing ", "Satisfied ", "High School "), which will affect grouping and filtering
+- Some text values contain trailing spaces (e.g. "Marketing ", "Satisfied ", "High School "), which affect grouping and filtering
 - Some employees have multiple performance reviews, so satisfaction must be handled at the right level before averaging
 
 ### Cleaning Steps
-> ⏳ To be completed during the cleaning phase (trimming text, data types, date formats, and relationships in the data model).
+> ⏳ To be listed: the final cleaning steps applied (trimming text, data types, date formats, and relationships in the data model).
 
 ---
 
@@ -137,37 +143,4 @@ F --> G[📖 Final Report & Presentation]
 | Total Headcount | Number of employees | 1,470 |
 | Attrition Rate | Employees who left ÷ total employees | 16.12% |
 | Average Age | Mean employee age | 29.0 years |
-| Average Salary | Mean employee salary | 112,956 |
-| Average Years at Company | Mean tenure | 4.6 years |
-| Average Job Satisfaction | Mean JobSatisfaction score (1–4) | 3.43 |
-| Average Environment Satisfaction | Mean EnvironmentSatisfaction score (1–4) | 3.87 |
-| Average Work-Life Balance | Mean WorkLifeBalance score (1–4) | 3.41 |
-
----
-
-# 📊 Key Insights
-
-> ⏳ Key insights will be added after the analysis is completed.
-
----
-
-# 📖 Presentation
-
-The final report and presentation will summarize:
-
-- Problem explanation and analysis questions
-- Key insights
-- Dashboard walkthrough
-- Recommendations
-
----
-
-# 👨‍🏫 Instructor
-
-### Mohamed Assem
-
----
-
-# ⭐ Project Status
-
-**In progress**: currently in the data understanding and cleaning phase.
+| Average Salary | Mean employee salary |
