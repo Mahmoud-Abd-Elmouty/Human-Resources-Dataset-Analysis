@@ -4,7 +4,13 @@
 
 ---
 
-# 📌 Project Description
+# 📌 Project Name
+
+**Human Resources Dataset Analysis**
+
+---
+
+# 💡 Project Idea
 
 This project analyzes Human Resources (HR) data using **Power BI** to uncover insights that support better workforce decisions. It is part of the **Digital Egypt Pioneers Initiative (DEPI)** data analysis track.
 
@@ -40,7 +46,7 @@ The project also includes data cleaning and preprocessing, DAX measures, and an 
 | Resource | Link |
 | -------- | ---- |
 | Project Files (Google Drive) | [To be added] |
-| Dataset Source | [To be added] |
+| Dataset Source | [Google Drive - Data Folder](https://drive.google.com/drive/folders/1iKGkAH_9yPngDTW43Y2QekH7GvbMGHwh?usp=sharing) |
 
 ---
 
@@ -55,7 +61,9 @@ The project also includes data cleaning and preprocessing, DAX measures, and an 
 
 ---
 
-# ⚙️ Project Workflow
+# 🗓️ Work Plan
+
+### Project Workflow
 
 ```mermaid
 graph TD
@@ -67,14 +75,50 @@ E --> F[📊 Dashboard Development]
 F --> G[📖 Final Report & Presentation]
 ```
 
+### Project Timeline
+
+| Phase | Duration | Status |
+| ----- | -------- | ------ |
+| 🧹 Data Cleaning & Preprocessing | Week 1 | ⬜ Not started |
+| ❓ Analysis Questions | Week 2 | ⬜ Not started |
+| 📊 Dashboard Development | Week 3 | ⬜ Not started |
+| 📖 Final Report & Presentation | Week 4 | ⬜ Not started |
+
+---
+
+# 👥 Team Members
+
+| Name | Role |
+| ---- | ---- |
+| Mahmoud Abdel Moaty | Dashboard & DAX Lead |
+| Khalid Khalifa | Data Cleaning & Preprocessing |
+| Mohamed Rageh | Attrition Analysis & Final Report |
+
+---
+
+# 🧩 Roles & Responsibilities
+
+| Name | Responsibilities |
+| ---- | ---------------- |
+| Mahmoud Abdel Moaty | Build the Power BI data model, write the DAX measures, design the dashboard pages, coordinate the team, and analyze employee age and satisfaction level. |
+| Khalid Khalifa | Clean and transform the dataset in Power Query (missing values, duplicates, data types), and maintain the Data Dictionary. |
+| Mohamed Rageh | Analyze attrition by department and job role, study the effect of salary and years of experience on retention, then write the final report and prepare the PowerPoint presentation. |
+
 ---
 
 # 🧹 Data Cleaning & Preprocessing
 
-> ⏳ This section will be completed once the dataset is received. It will include:
-> - Dataset overview (number of rows and columns)
-> - Challenges found during cleaning
-> - Cleaning steps applied (missing values, duplicates, data types, formatting)
+### Dataset Overview
+- **Employee.csv:** 1,470 employees, 23 columns, no duplicate IDs and no missing values
+- **PerformanceRating.csv:** 6,709 review records covering 1,280 employees, no missing values
+- **Lookup tables:** EducationLevel, RatingLevel, and SatisfiedLevel (used to map the numeric codes)
+
+### Challenges Found
+- Some text values contain trailing spaces (e.g. "Marketing ", "Satisfied ", "High School "), which will affect grouping and filtering
+- Some employees have multiple performance reviews, so satisfaction must be handled at the right level before averaging
+
+### Cleaning Steps
+> ⏳ To be completed during the cleaning phase (trimming text, data types, date formats, and relationships in the data model).
 
 ---
 
@@ -83,6 +127,21 @@ F --> G[📖 Final Report & Presentation]
 | Page | Description |
 | ---- | ----------- |
 | [To be added] | [To be added] |
+
+---
+
+# 📈 KPIs
+
+| KPI | Definition | Current Value |
+| --- | ---------- | ------------- |
+| Total Headcount | Number of employees | 1,470 |
+| Attrition Rate | Employees who left ÷ total employees | 16.12% |
+| Average Age | Mean employee age | 29.0 years |
+| Average Salary | Mean employee salary | 112,956 |
+| Average Years at Company | Mean tenure | 4.6 years |
+| Average Job Satisfaction | Mean JobSatisfaction score (1–4) | 3.43 |
+| Average Environment Satisfaction | Mean EnvironmentSatisfaction score (1–4) | 3.87 |
+| Average Work-Life Balance | Mean WorkLifeBalance score (1–4) | 3.41 |
 
 ---
 
@@ -103,34 +162,12 @@ The final report and presentation will summarize:
 
 ---
 
-# 👥 Team Members
-
-| Name | Role | Responsibilities |
-| ---- | ---- | ---------------- |
-| Mahmoud Abdel Moaty | Dashboard & DAX Lead | Build the Power BI data model, write the DAX measures, design the dashboard pages, and coordinate the team. |
-|Khalid Khalifa | Data Cleaning & Preprocessing | Clean and transform the dataset in Power Query (missing values, duplicates, data types), and maintain the Data Dictionary. |
-| Abdelrahman Ahmed Saber | Satisfaction & Demographics Analysis | Define and answer questions on employee age, satisfaction level, and the effect of salary and experience on retention. |
-| Mohamed Rageh | Attrition Analysis & Final Report | Analyze attrition by department and job role, then write the final report and prepare the PowerPoint presentation. |
-
----
-
 # 👨‍🏫 Instructor
 
 ### Mohamed Assem
 
 ---
 
-# ⏳ Project Timeline
-
-| Phase | Duration | Status |
-| ----- | -------- | ------ |
-| 🧹 Data Cleaning & Preprocessing | Week 1 | ⬜ Not started |
-| ❓ Analysis Questions | Week 2 | ⬜ Not started |
-| 📊 Dashboard Development | Week 3 | ⬜ Not started |
-| 📖 Final Report & Presentation | Week 4 | ⬜ Not started |
-
----
-
 # ⭐ Project Status
 
-## 🚧 In Progress
+**In progress**: currently in the data understanding and cleaning phase.
